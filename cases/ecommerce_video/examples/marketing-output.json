@@ -1,0 +1,83 @@
+{
+  "task_id": "task_001",
+  "stage": "market_analysis",
+  "timestamp": "2024-01-01T12:05:00Z",
+  "output": {
+    "marketing_strategy": {
+      "target_audience": {
+        "age_range": "18-35",
+        "gender": "女",
+        "interests": ["护肤", "美妆", "精致生活"],
+        "pain_points": ["敏感肌不敢用", "洗完脸紧绷", "清洁不彻底"]
+      },
+      "key_selling_points": [
+        {
+          "point": "氨基酸表活",
+          "value": "温和不刺激，敏感肌可用"
+        },
+        {
+          "point": "三重氨基酸",
+          "value": "深层清洁的同时保护皮肤屏障"
+        },
+        {
+          "point": "即时补水",
+          "value": "洗完脸不紧绷，水润舒适"
+        }
+      ],
+      "differentiation": "专为敏感肌设计的温和洁面，主打"洗得干净不伤脸",
+      "tone_and_style": "精致、温暖、专业",
+      "platform_adaptation": {
+        "抖音": "节奏快、视觉冲击强、黄金3秒",
+        "小红书": "真实体验、精致画面、种草向"
+      }
+    },
+    "video_concepts": [
+      {
+        "id": "concept_1",
+        "title": "敏感肌的救星",
+        "description": "以敏感肌用户的痛点开场，展示产品的温和特性",
+        "hook": "你是不是也有这样的困扰？洗完脸紧绷、红脸蛋、不敢用刺激的洁面？",
+        "key_scenes": [
+          "早上起床皮肤状态差",
+          "使用普通洁面后的不适",
+          "换成氨基酸洁面",
+          "洗后水润不紧绷",
+          "皮肤状态改善"
+        ],
+        "call_to_action": "点击下方链接，敏感肌也能放心用",
+        "target_platform": "抖音"
+      },
+      {
+        "id": "concept_2",
+        "title": "洁面实验室",
+        "description": "通过实验对比展示产品的温和性和清洁力",
+        "hook": "一款洁面，真的能做到既温和又干净吗？",
+        "key_scenes": [
+          "实验室场景",
+          "pH值测试对比",
+          "清洁力测试",
+          "真人使用效果",
+          "前后对比"
+        ],
+        "call_to_action": "科学验证的好产品，点击试试",
+        "target_platform": "小红书"
+      },
+      {
+        "id": "concept_3",
+        "title": "真实体验分享",
+        "description": "素人真实使用分享，强调真实感和亲和力",
+        "hook": "用了大半个月，来聊聊真实感受",
+        "key_scenes": [
+          "浴室场景",
+          "洁面使用演示",
+          "冲洗过程",
+          "洗后皮肤状态",
+          "分享使用心得"
+        ],
+        "call_to_action": "真实分享，按头安利！",
+        "target_platform": "小红书"
+      }
+    ]
+  },
+  "status": "completed"
+}

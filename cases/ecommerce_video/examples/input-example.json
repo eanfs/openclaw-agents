@@ -1,0 +1,33 @@
+{
+  "task_id": "task_001",
+  "created_at": "2024-01-01T12:00:00Z",
+  "user": {
+    "id": "user_001",
+    "name": "电商客户",
+    "platform_preference": ["抖音", "小红书"]
+  },
+  "product": {
+    "url": "https://item.taobao.com/item.htm?id=xxx",
+    "name": "氨基酸洁面乳",
+    "category": "美妆",
+    "brand": "护肤品牌",
+    "price": "89",
+    "key_selling_points": [
+      "温和不刺激",
+      "深层清洁",
+      "补水保湿"
+    ],
+    "target_audience": "18-35岁女性"
+  },
+  "requirements": {
+    "video_count": 5,
+    "duration": "30s",
+    "platforms": ["抖音", "小红书"],
+    "style": "精致种草",
+    "output_format": "mp4"
+  },
+  "timeline": {
+    "deadline": "2024-01-02T18:00:00Z",
+    "priority": "high"
+  }
+}

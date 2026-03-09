@@ -1,0 +1,121 @@
+{
+  "task_id": "task_001",
+  "stage": "video_generation",
+  "timestamp": "2024-01-01T12:15:00Z",
+  "output": {
+    "scripts": [
+      {
+        "script_id": "script_001",
+        "concept_id": "concept_1",
+        "title": "敏感肌的救星",
+        "duration": 30,
+        "scenes": [
+          {
+            "scene_id": 1,
+            "duration": 3,
+            "type": "开场",
+            "description": "早上起床，镜子中的脸暗沉、泛红",
+            "visual": "特写镜头拍摄泛红的脸颊，眼神疲惫",
+            "voiceover": "你是不是也有这样的困扰？洗完脸紧绷、红脸蛋、不敢用刺激的洁面？",
+            "subtitles": "你是不是也有这样的困扰？",
+            "background_music": "轻柔的钢琴声，节奏缓慢"
+          },
+          {
+            "scene_id": 2,
+            "duration": 4,
+            "type": "痛点",
+            "description": "切换到使用普通洁面后皮肤不适的画面",
+            "visual": "手挤压洁面产品，涂抹在脸上，表情痛苦",
+            "voiceover": "普通洁面虽然洗得干净，但过度清洁会破坏皮肤屏障",
+            "subtitles": "洗得干净≠洗得健康",
+            "background_music": "音乐稍显紧张"
+          },
+          {
+            "scene_id": 3,
+            "duration": 5,
+            "type": "产品介绍",
+            "description": "展示氨基酸洁面产品",
+            "visual": "产品特写，优雅的包装设计，成分标签",
+            "voiceover": "直到我发现了这款氨基酸洁面，三重氨基酸配方，温和不刺激",
+            "subtitles": "三重氨基酸配方 | 温和不刺激",
+            "background_music": "音乐转为温馨"
+          },
+          {
+            "scene_id": 4,
+            "duration": 8,
+            "type": "使用展示",
+            "description": "真人演示使用过程",
+            "visual": "挤出洁面，揉搓起泡，涂抹全脸，冲洗",
+            "voiceover": "丰富绵密的泡沫，温和包裹每一寸肌肤，清水冲洗后",
+            "subtitles": "丰富绵密泡沫 | 温和清洁",
+            "background_music": "舒适的音乐"
+          },
+          {
+            "scene_id": 5,
+            "duration": 5,
+            "type": "效果展示",
+            "description": "洗后皮肤状态，水润透亮",
+            "visual": "特写镜头拍摄洗后的皮肤，光泽感强",
+            "voiceover": "皮肤水润不紧绷，光滑细腻，像刚做完护肤一样",
+            "subtitles": "洗后不紧绷 | 水润舒适",
+            "background_music": "音乐转为轻快"
+          },
+          {
+            "scene_id": 6,
+            "duration": 5,
+            "type": "行动号召",
+            "description": "产品展示+购买引导",
+            "visual": "产品+模特微笑+文字引导",
+            "voiceover": "敏感肌也能放心用的洁面，点击下方链接，现在下单享优惠",
+            "subtitles": "点击下方链接 | 敏感肌福音",
+            "background_music": "音乐收尾"
+          }
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "material_id": "img_001",
+        "type": "image",
+        "scene_id": 1,
+        "prompt": "早晨起床的女孩脸部特写，肌肤暗沉有红晕，眼神疲惫，柔和的自然光线，居家场景",
+        "status": "generated",
+        "path": "materials/img_001.jpg"
+      },
+      {
+        "material_id": "img_002",
+        "type": "image",
+        "scene_id": 2,
+        "prompt": "洁面产品涂抹在脸上的特写，表情有些不适，浴室灯光，皮肤略微发红",
+        "status": "generated",
+        "path": "materials/img_002.jpg"
+      },
+      {
+        "material_id": "img_003",
+        "type": "image",
+        "scene_id": 3,
+        "prompt": "氨基酸洁面产品特写，简约优雅的包装设计，浅蓝色调，高级感，摆在白色大理石台面上",
+        "status": "generated",
+        "path": "materials/img_003.jpg"
+      },
+      {
+        "material_id": "video_001",
+        "type": "video",
+        "scene_id": 4,
+        "source_image": "img_004",
+        "prompt": "洁面泡沫在脸上轻柔按摩的动态，缓慢的推拉镜头，柔和的自然光",
+        "status": "generated",
+        "path": "materials/video_001.mp4"
+      },
+      {
+        "material_id": "img_005",
+        "type": "image",
+        "scene_id": 5,
+        "prompt": "洗后肌肤特写，水润透亮，有自然的光泽感，皮肤状态非常好",
+        "status": "generated",
+        "path": "materials/img_005.jpg"
+      }
+    ]
+  },
+  "status": "completed"
+}
